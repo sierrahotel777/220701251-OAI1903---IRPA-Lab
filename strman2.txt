@@ -1,2 +1,0 @@
-Robotic Process Automation(RPA) is  a software technology that makes it easy to build, deploy, and  RPA streamlines workflow, which makes organizations more profitable, flexible and responsive
- RPA is non invasive and can be rapidly implemented to accelerate digital transformation
