@@ -1,0 +1,3 @@
+C:\Users\rsshi\OneDrive\Documents\UiPath\For Each Activity\Main.xaml
+C:Users\shi\neDrive\ments\iPath\r ach Activity\o.txt
+C:\Users\rsshi\OneDrive\Documents\UiPath\For Each Activity\project.json

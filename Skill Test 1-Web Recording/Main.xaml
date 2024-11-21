@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="851,3377" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,3312" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="EmailAddress" />
+      <Variable x:TypeArguments="x:String" Name="password" />
+      <Variable x:TypeArguments="x:String" Name="course" />
+      <Variable x:TypeArguments="x:String" Name="progress" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - Email" sap:VirtualizedContainerService.HintSize="484,243" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your Email Address" Title="Email Address">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[EmailAddress]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog - Password" sap:VirtualizedContainerService.HintSize="484,243" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter your password" Title="Password">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[password]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Robotic Process Automation Courses | UiPath Academy" sap:VirtualizedContainerService.HintSize="484,1283" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="30e1c8f0-4951-4c4e-902a-87d97fe5d608" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1065" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'My Dashboard'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="30e1c8f0-4951-4c4e-902a-87d97fe5d608" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/courses" DesignTimeRectangle="666, 268, 195, 29" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'My Dashboard'" FullSelectorArgument="&lt;webctrl aaname='My Dashboard' parentid='topMenu' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='My Dashboard' parentid='topMenu' tag='SPAN' type='' class='' check:innerText='MY DASHBOARD' /&gt;" Guid="aa228e6d-5012-4c18-8950-2f8f5ac94b60" InformativeScreenshot="20de76b9e5cd6d18ca74e64999fbb36a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Robotic Process Automation Courses | UiPath Academy' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'My Learning Plans'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="30e1c8f0-4951-4c4e-902a-87d97fe5d608" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/activity-dashboard" DesignTimeRectangle="295, 547, 325, 88" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'My Learning Plans'" FullSelectorArgument="&lt;webctrl aaname='My Learning Plans' class='chnl-tab-link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='My Learning Plans' class='chnl-tab-link' tag='A' type='' check:innerText='My Learning Plans' /&gt;" Guid="290389d0-b7dc-47bb-935c-2a90daf5ccc3" InformativeScreenshot="47aba85509a883454e6abf6c9317e4bc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiPath Academy' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Test Automation'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="30e1c8f0-4951-4c4e-902a-87d97fe5d608" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/activity-dashboard" DesignTimeRectangle="459, 875, 535, 39" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'Test Automation'" FullSelectorArgument="&lt;webctrl aaname='Test Automation Engineer Training' isleaf='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Test Automation Engineer Training' isleaf='1' tag='A' type='' class='' check:innerText='Test Automation Engineer Training' /&gt;" Guid="cf52a46b-41f0-4471-803c-3aa693f4b93e" InformativeScreenshot="90fc7ba0a1dcb65dbddd6ed33bbb2343.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiPath Academy' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Test Automation'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="30e1c8f0-4951-4c4e-902a-87d97fe5d608" TextString="[course]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/learning-plans/test-automation-engineer-training" DesignTimeRectangle="334, 576, 1540, 92" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'Test Automation'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='learningpath-title' /&gt;" Guid="0e2033ff-e670-4363-907a-6872729acb81" InformativeScreenshot="c1b2983e66ccf3af94cdd224712b8e3a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Test Automation Engineer Training' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'In progress'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="30e1c8f0-4951-4c4e-902a-87d97fe5d608" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/learning-plans/test-automation-engineer-training" DesignTimeRectangle="334, 886, 1540, 50" DesignTimeScaleFactor="2" FriendlyName="'In progress'" FullSelectorArgument="&lt;webctrl class='learning-path-progress-text-wrap' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='learning-path-progress-text-wrap' tag='DIV' type='' /&gt;" Guid="bddb6b87-895b-49a8-99f4-28f7b8ee36a8" InformativeScreenshot="45812db0617ed58c824e6044d41e5d56.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Test Automation Engineer Training' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="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" InformativeScreenshot="390f1f577db80c77f8df7e57b1eca674.jpg" Selector="&lt;html app='msedge.exe' title='Robotic Process Automation Courses | UiPath Academy' /&gt;" Title="Robotic Process Automation Courses | UiPath Academy" Url="https://academy.uipath.com/courses" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Untitled - Notepad" sap:VirtualizedContainerService.HintSize="484,1312" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="a9b09d6b-50ce-4863-aa1f-c2960df5b428" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1019" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,227" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="[course+Environment.NewLine+&quot;Progress: &quot;+progress]" Version="V3" />
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,180" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V3" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Untitled'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,219" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="a9b09d6b-50ce-4863-aa1f-c2960df5b428" Text="courseProgress.txt" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="266, 712, 1210, 34" DesignTimeScaleFactor="2" ElementType="InputBox" FriendlyName="'Untitled'" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="50d7a0ea-1057-4e44-bc5e-319f71fca874" InformativeScreenshot="04fd4bd56e87dfa1f3c48a6cc7eb41c5.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a9b09d6b-50ce-4863-aa1f-c2960df5b428" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1115, 871, 176, 52" DesignTimeScaleFactor="2" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' check:text='unchecked' /&gt;" Guid="b6dd221e-84ae-476c-87f5-d939a2f94565" InformativeScreenshot="7254e43151a14a5f5d64bc154845b6f3.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1254, 262, 1628, 1332" FilePath="Microsoft.WindowsNotepad_8wekyb3d8bbwe!App" IconBase64="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" InformativeScreenshot="61b2c49c03aefcca4512c0d80dd39e70.png" Selector="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Untitled - Notepad' /&gt;" Title="Untitled - Notepad" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
