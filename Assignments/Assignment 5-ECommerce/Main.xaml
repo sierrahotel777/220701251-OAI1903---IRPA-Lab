@@ -1,0 +1,223 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="851,2710.0000000000005" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,2645" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_books" />
+      <Variable x:TypeArguments="x:String" Name="b1" />
+      <Variable x:TypeArguments="x:String" Name="a1" />
+      <Variable x:TypeArguments="x:String" Name="b2" />
+      <Variable x:TypeArguments="x:String" Name="a2" />
+      <Variable x:TypeArguments="x:String" Name="p2" />
+      <Variable x:TypeArguments="x:String" Name="p1" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DataTable="[dt_books]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="484,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Book&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Author&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Book&gt;Meditations&lt;/Book&gt;&#xD;&#xA;    &lt;Author&gt;Marcus Aurelius&lt;/Author&gt;&#xD;&#xA;    &lt;Price&gt;300&lt;/Price&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes an" sap:VirtualizedContainerService.HintSize="484,1780" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0d470fae-9693-4358-92ad-0122e8183ac0" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1522" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'All'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,219" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" Text="RPA" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/" DesignTimeRectangle="829, 313, 1336, 76" DesignTimeScaleFactor="2" ElementType="InputBox" FriendlyName="'INPUT twotabsearchtextb…'" FullSelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' aaname='Search Amazon.in' /&gt;" Guid="22fb17dd-5732-4ccd-ae81-2f18faa1b4d4" InformativeScreenshot="ca29d785f2682b056456864eaaade2a4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="747, 319, 38, 66" ElementType="Text" FriendlyName="'All'" FullSelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' type='' class='nav-search-label nav-progressive-content' aaname='All' check:innerText='All' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NGetText DisplayName="Get Text 'Vaibhav Srivastava'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[b1]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1051, 571, 878, 45" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'Getting started'" FullSelectorArgument="&lt;webctrl aaname='Getting started with RPA using Automation Anywhere' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='search' tag='SPAN' type='' class='a-size-medium a-color-base a-text-normal' /&gt;" Guid="e114198d-3617-433d-ab41-759b84a1ba2f" InformativeScreenshot="7da90bd08710dc2e31afd798df098395.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1089, 620, 237, 35" ElementType="Text" FriendlyName="'Vaibhav Srivastava'" FullSelectorArgument="&lt;webctrl aaname='Vaibhav Srivastava' class='a-size-base' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Vaibhav Srivastava' class='a-size-base' parentid='search' tag='SPAN' type='' check:innerText='Vaibhav Srivastava' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '1 January 2021'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[a1]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1089, 620, 237, 35" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'Vaibhav Srivastava'" FullSelectorArgument="&lt;webctrl aaname='Vaibhav Srivastava' class='a-size-base' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='a-size-base' parentid='search' tag='SPAN' type='' /&gt;" Guid="f82b81e7-04bf-4250-bcdb-12f4f886ec89" InformativeScreenshot="2125ff5891953873442037f8f52243b3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1370, 620, 197, 35" ElementType="Text" FriendlyName="'1 January 2021'" FullSelectorArgument="&lt;webctrl aaname='1 January 2021' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1 January 2021' parentid='search' tag='SPAN' type='' class='a-size-base a-color-secondary a-text-normal' check:innerText='1 January 2021' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '(20% off)'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[p1]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1067, 764, 98, 70" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'639'" FullSelectorArgument="&lt;webctrl aaname='639' class='a-price-whole' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='a-price-whole' parentid='search' tag='SPAN' type='' /&gt;" Guid="8ac8f7f0-8c0e-4e54-aa8d-40d48e3349b6" InformativeScreenshot="5fc37103049fba554bd2c18d99c78ac6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1338, 791, 121, 35" ElementType="Text" FriendlyName="'(20% off)'" FullSelectorArgument="&lt;webctrl aaname='(20% off)' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='(20% off)' parentid='search' tag='SPAN' type='' class='' check:innerText='(20% off)' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Jonathan Sireci'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[b2]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1051, 736, 1390, 93" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'The Project'" FullSelectorArgument="&lt;webctrl aaname='The Project Manager&amp;apos;s Guide to RPA: A Practical Guide for Deploy*' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='search' tag='SPAN' type='' class='a-size-medium a-color-base a-text-normal' /&gt;" Guid="3fa7c5a9-93a5-4079-a976-abf5bd089e6d" InformativeScreenshot="42370f6c27b5f6abbb23d7fc78c6a7ba.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1089, 833, 194, 35" ElementType="Text" FriendlyName="'Jonathan Sireci'" FullSelectorArgument="&lt;webctrl aaname='Jonathan Sireci' parentid='search' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Jonathan Sireci' parentid='search' tag='A' type='' class='a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style' check:innerText='Jonathan Sireci' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '6 June 2021'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[a2]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1089, 833, 194, 35" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'Jonathan Sireci'" FullSelectorArgument="&lt;webctrl aaname='Jonathan Sireci' parentid='search' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='search' tag='A' type='' class='a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style' /&gt;" Guid="f5e5923a-a370-4ede-960e-10c9f989580e" InformativeScreenshot="f01330c259edf1e3917f76ede557981f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1334, 833, 156, 35" ElementType="Text" FriendlyName="'6 June 2021'" FullSelectorArgument="&lt;webctrl aaname='6 June 2021' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='6 June 2021' parentid='search' tag='SPAN' type='' class='a-size-base a-color-secondary a-text-normal' check:innerText='6 June 2021' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text '30 Nov - 2 Dec'" sap:VirtualizedContainerService.HintSize="388,158" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="0d470fae-9693-4358-92ad-0122e8183ac0" TextString="[p2]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.amazon.in/s?k=rpa&amp;crid=1KY7MC1SGMVDD&amp;sprefix=%2Caps%2C278&amp;ref=nb_sb_ss_recent_1_0_recent" DesignTimeRectangle="1067, 977, 98, 70" DesignTimeScaleFactor="2" ElementType="Text" FriendlyName="'936'" FullSelectorArgument="&lt;webctrl class='a-price-whole' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='a-price-whole' parentid='search' tag='SPAN' type='' /&gt;" Guid="695656c4-6873-48cf-9d7a-7289dcbabc91" InformativeScreenshot="5f45c533d6a5feecddba8b4c8426297d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.in : rpa' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1162, 1059, 190, 35" ElementType="Text" FriendlyName="'30 Nov - 2 Dec'" FullSelectorArgument="&lt;webctrl aaname='30 Nov - 2 Dec ' parentid='search' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='30 Nov - 2 Dec ' parentid='search' tag='SPAN' type='' class='a-color-base a-text-bold' check:innerText='30 Nov - 2 Dec' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-13, -13, 3098, 1850" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAF5SURBVDhPlVM9S8NQFBW0+QOO2h+gU9vdSbuLNP0HprtDfoBIhYKgWFyFLLpUC10EjbvawcFC4qJDm4CDllQdHHq9JzdfbYLUA4e8d98959738t4cESnMA2afOSuQC40Cg31EkrBtm3Rdp4qqklqtkmEYwUoKDRi4MhZ0u12az+VoYYowzIALg6GMBVqt5gs2ymWyLCuaL+fzQcYEhikDx3H8LkzTpMt2299C2EUG0gbYf6FUikRJZiBtEFaECbo5bjb/ZxAm79Xr/nxb06KY53l+LIG0QaFYjAQ4yOQfQTdTCAy+HJkycIBLfOIQ4AtRhbe1zmajd5fGFt+J+x1hZNBZJfqwEPgbt1sifNwlOoM0NBjcEJ3z8I4XR3E3KXwOiF5aUqy1iEjiDF4vxAS8WpMqvUOiJ2bviKtvSlXkoSDWA4P4Kr89SCJMkMwcB1/qrPATupa8H/4bYHCVGxhNAC0+n8Yd9LliNvzHhOd8wvxGZEYglzWk/AJk0E1AkKBI3AAAAABJRU5ErkJggg==" InformativeScreenshot="1d463cd276f36fc6b62128099a24480a.jpg" Selector="&lt;html app='chrome.exe' title='Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in' /&gt;" Title="Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in" Url="https://www.amazon.in/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{b1, a1, p1}]" DataTable="[dt_books]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{b2, a2, p2}]" DataTable="[dt_books]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+    <ui:WriteCsvFile AddHeaders="True" DataTable="[dt_books]" Delimitator="Comma" DisplayName="Write CSV" FilePath="books.csv" sap:VirtualizedContainerService.HintSize="484,156" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" ShouldQuote="True" />
+  </Sequence>
+</Activity>
